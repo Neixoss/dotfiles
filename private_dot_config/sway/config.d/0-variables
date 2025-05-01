@@ -38,7 +38,7 @@ set $monitorSwitch $HOME/.config/sway/scripts/monitor_switch.sh
 set $menu wofi | xargs swaymsg exec --
 
 # Wallpaper Path
-set $wallpaperPath $HOME/.wall
+set $wallpaperPath $HOME/.config/sway/.wall
 
 # GTK Script
 set $gtkScript $HOME/.config/sway/scripts/import-gsettings
